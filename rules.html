@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zasady gry</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MENU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Strona główna
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rules.html">Zasady gry</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="history.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galeria</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Słynni szachiści</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Garri_Kasparow" target="_blank">Garri Kasparow</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Michai%C5%82_Tal" target="_blank">Michaił Tal</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Bobby_Fischer" target="_blank">Bobby Fischer</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Aleksandr_Alechin" target="_blank">Aleksandr Alechin</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Jan-Krzysztof_Duda" target="_blank">Jan-Krzysztof Duda</a>
+                    <a class="dropdown-item" href="formularz.html">Też nim jesteś? Kilknij tutaj!</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <article>
+            <h4>ZASADY GRY</h4>
+            <br>
+            <p>Grę zawsze rozpoczynają białe, co daje im pewną inicjatywę w początkowej fazie partii.
+                Gracze na zmianę wykonują posunięcia swoimi bierkami zgodnie z zasadami ruchu dla danej bierki i,
+                jeśli wejdzie ona na pole zajmowane przez przeciwnika, zbija jego bierkę.<br>
+                Szach jest groźbą zbicia króla, która musi być zażegnana przez przeciwnika w następnym posunięciu
+                (króla nie można zbić). Mat, czyli postawienie króla przeciwnika w szachu, przed którym nie ma obrony,
+                kończy partię i oznacza zwycięstwo gracza, którego bierka matuje króla przeciwnika. Remis występuje w przypadku, gdy:</p>
+            <ul>
+                <li>gracze uzgodnili taki wynik partii,</li>
+                <li>na planszy wystąpił pat (jedna ze stron nie może wykonać prawidłowych posunięć, a jej król nie jest szachowany),</li>
+                <li>żadna ze stron nie posiada środków niezbędnych do wygranej (choćby teoretycznej),</li>
+                <li>powstała tzw. martwa pozycja, czyli żaden z graczy nie jest w stanie dać mata nawet przy najlepszej grze.</li>
+            </ul>
+            <p>Partia może zakończyć się remisem (na wniosek jednej ze stron), gdy:</p>
+            <ul>
+                <li>identyczna pozycja na planszy pojawiła się trzykrotnie,</li>
+                <li>jedna ze stron daje wiecznego szacha,</li>
+                <li>wykonano pięćdziesiąt posunięć bez ruchu pionem i bicia dowolną bierką.</li>
+            </ul>
+            <br>
+            <h4>WARTOŚCI BIEREK</h4>
+            <p>Każda z bierek ma swoją wartość punktową, co ukazuje poniższa tabela:</p>
+            <table class="table table-hover" style="width: 50%">
+                <thead>
+                <tr>
+                    <th scope="col">Bierka</th>
+                    <th scope="col">Wartość punktowa</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="table-light">
+                    <th scope="row">Król</th>
+                    <td>Nieskończona (Nie można przypisać - król nie może być zbity)</td>
+                </tr>
+                <tr class="table-dark">
+                    <th scope="row">Hetman</th>
+                    <td>9 punktów</td>
+                </tr>
+                <tr class="table-light">
+                    <th scope="row">Wieża</th>
+                    <td>5 punktów</td>
+                </tr>
+                <tr class="table-dark">
+                    <th scope="row">Goniec</th>
+                    <td>3 punkty</td>
+                </tr>
+                <tr class="table-light">
+                    <th scope="row">Skoczek</th>
+                    <td>3 punkty</td>
+                </tr>
+                <tr class="table-dark">
+                    <th scope="row">Pion</th>
+                    <td>1 punkt</td>
+                </tr>
+                </tbody>
+            </table>
+        </article>
+    </div>
+</div>
+<footer>Źródło: https://pl.wikipedia.org/wiki/Szachy#Reguły</footer>
+</body>
+</html>

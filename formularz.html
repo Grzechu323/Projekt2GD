@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zgłoś się, arcymistrzu!</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MENU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Strona główna
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rules.html">Zasady gry</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="history.html">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Galeria</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Słynni szachiści</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Garri_Kasparow" target="_blank">Garri Kasparow</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Michai%C5%82_Tal" target="_blank">Michaił Tal</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Bobby_Fischer" target="_blank">Bobby Fischer</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Aleksandr_Alechin" target="_blank">Aleksandr Alechin</a>
+                    <a class="dropdown-item" href="https://pl.wikipedia.org/wiki/Jan-Krzysztof_Duda" target="_blank">Jan-Krzysztof Duda</a>
+                    <a class="dropdown-item" href="formularz.html">Też nim jesteś? Kilknij tutaj!</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <article>
+            <h5>Jeśli jesteś słynnym szachistą, zostaw nam swoje namiary, a umieścimy Cię w naszym panteonie, a także na kartach historii.</h5>
+            <form>
+                <fieldset>
+                    <div class="form-group">
+                        <label>Podaj imię:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>I nazwisko:</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Podaj adres e-mail do kontaktu:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Wpisz email">
+                        <small id="emailHelp" class="form-text text-muted">Nie udostępnimy Twojego maila nikomu innemu i nigdy, i nigdzie.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1">Podaj swój przedział rankingowy:</label>
+                        <select class="form-control" id="exampleSelect1">
+                            <option>-Wybierz-</option>
+                            <option><2000</option>
+                            <option>2001-2200</option>
+                            <option>2201-2400</option>
+                            <option>2401-2600</option>
+                            <option>>2601</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect2">W skali 1-5, jak podoba Ci się strona?</label>
+                        <select class="form-control" id="exampleSelect2">
+                            <option>-Wybierz-</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+            </form>
+        </article>
+    </div>
+</div>
+<footer>Copyright by Grzegorz Dorożko A.D. 2020</footer>
+</body>
+</html>
